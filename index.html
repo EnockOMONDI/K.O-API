@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Keja Online - Home</title>
+		<meta charset="utf-8">
+		<meta name="format-detection" content="telephone=no" />
+		<link rel="shortcut icon" href="images/house_logo.png" />
+		<link rel="stylesheet" href="booking/css/booking.css">
+		<link rel="stylesheet" href="css/camera.css">
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	    <link rel="stylesheet" href="css/styles.css">
+	
+			
+				
+			
+			
+		 <!-- Compiled and minified CSS -->
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+		 <!-- Compiled and minified JavaScript -->
+		
+		 <script src="script.js"></script>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery-migrate-1.2.1.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/superfish.js"></script>
+		<script src="js/jquery.ui.totop.js"></script>
+		<script src="js/jquery.equalheights.js"></script>
+		<script src="js/jquery.mobilemenu.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/owl.carousel.js"></script>
+		<script src="js/camera.js"></script>
+		<!--[if (gt IE 9)|!(IE)]><!-->
+		<script src="js/jquery.mobile.customized.min.js"></script>
+		<!--<![endif]-->
+		<script src="booking/js/booking.js"></script>
+		<script>
+			$(document).ready(function(){
+			jQuery('#camera_wrap').camera({
+				loader: false,
+				pagination: false ,
+				minHeight: '444',
+				thumbnails: false,
+				height: '48.375%',
+				caption: true,
+				navigation: true,
+				fx: 'mosaic'
+			});
+			/*carousel*/
+			var owl=$("#owl");
+				owl.owlCarousel({
+				items : 2, //10 items above 1000px browser width
+				itemsDesktop : [995,2], //5 items between 1000px and 901px
+				itemsDesktopSmall : [767, 2], // betweem 900px and 601px
+				itemsTablet: [700, 2], //2 items between 600 and 0
+				itemsMobile : [479, 1], // itemsMobile disabled - inherit from itemsTablet option
+				navigation : true,
+				pagination : false
+				});
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			});
+		</script>
+	
+				
+			
+		
+			 
+		<!--[if lt IE 8]>
+		<div style=' clear: both; text-align:center; position: relative;'>
+			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+				<img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+			</a>
+		</div>
+		<![endif]-->
+		<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<link rel="stylesheet" media="screen" href="css/ie.css">
+		<![endif]-->
+	</head>
+
+	<body class="page1" id="top">
+<!--==============================header=================================-->
+			 
+<div id='cssmenu'>
+		<ul>
+			
+		   <li ><a href='index-3.html'>Blogs</a></li>
+		   <li ><a href='index-4.html'>About us</a></li>
+		   <li><a href='pricing.html'>How it works</a></li>
+		   <li><a href='Nairobiforsale.html'>Houses for sale</a></li>
+		   <li><a href='Nairobi.html'>Houses for rent</a></li>
+		   <li><a href='index.html'>Home</a></li>
+		 <img src="images/house_logo.png" alt="" style="height: 55px; width: auto;" href='index.html'/> 
+		   <li style="float:left "><a href='#'><b> Keja Online</b></a></li>
+		 
+		</ul>
+		</div>
+		<div class="slider_wrapper" >
+			<div id="camera_wrap"  class="">
+				<div data-src="images/nairobi.jpg">
+					<div class="captionn fadeIn">
+						<h1  style="color: #f3aa29;" >Nairobi</h1>
+						
+						<a href="Nairobi.html"class="waves-effect waves-light btn-large"  style="padding-top:18px; background-color: #002141;"   >RENT A HOUSE</a>
+						<a href="login.html"class="waves-effect waves-light btn-large" style="padding-top:18px; background-color: #002141;" >POST A HOUSE</a>
+						
+					</div>
+				</div>
+				<div data-src="images/slide1.jpg">
+					<div class="captionn fadeIn">
+							<h1  style="color: #f3aa29" >Mombasa</h1>
+							<a href="Mombasa.html"class="waves-effect waves-light btn-large" style="padding-top:18px; background-color: #002141;" >RENT A HOUSE</a>
+							<a href="login.html"class="waves-effect waves-light btn-large" style="padding-top:18px; background-color: #002141;" >POST A HOUSE</a>
+					</div>
+				</div>
+				<div data-src="images/slide2.jpg">
+					<div class="captionn fadeIn">
+							<h1  style="color: #f3aa29" >Kisumu</h1>
+							<a href="Kisumu.html" class="waves-effect waves-light btn-large" style="padding-top:18px; background-color: #002141;" >RENT A HOUSE</a>
+							<a href="login.html" class="waves-effect waves-light btn-large" style="padding-top:18px; background-color: #002141;" >POST A HOUSE</a>
+					</div>
+				</div>
+			</div>
+		</div>
+<!--==============================Content=================================-->
+
+	</html>	
